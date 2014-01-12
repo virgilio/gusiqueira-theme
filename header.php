@@ -18,7 +18,9 @@
 	      href="<?php echo get_template_directory_uri(); ?>/css/bootstrap.min.css">
         <link rel="stylesheet"
 	      href="<?php echo get_template_directory_uri(); ?>/css/main.css">
-        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <script src="<?php echo get_template_directory_uri(); ?>/js/vendor/modernizr-2.6.2.min.js"></script>
+    
+	<?php wp_head(); ?>
     </head>
     <body>
         <!--[if lt IE 7]>

@@ -6,14 +6,16 @@
 ?>
 <?php  get_header(); ?>
 
-<div id="content">
+<div id="content22">
+    <div style="width: 500%;">
+    teste
     <?php 
         while ( have_posts() ) : the_post();
-            echo get_template_part( 'content' );
-            $test = get_post_custom($post_id);
-            echo "<pre>" . print_r($test, true) . "</pre>";
+            //the_content();
+            echo get_template_part( 'content-no-title' );
         endwhile; // end of the loop. 
     ?>
+    </div>
 </div>
 
 <?php get_footer(); ?>
