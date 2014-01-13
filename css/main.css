@@ -297,7 +297,7 @@ textarea {
 body {
     background: url("../img/9.jpg") center top no-repeat;
     background-size: 100%;
-/*    overflow: hidden;*/
+    overflow: hidden;
     height: 100%;
     font-family: 'Dosis', sans-serif;
 }
@@ -408,23 +408,23 @@ nav ul li a {
 }
 
 @media screen and (max-height: 720px) {
-    #content {
-	height: 450px;
-	border: 0px solid #000;
+    #content, #content article {
+	    height: 450px;
+    	border: 0px solid #000;
     }
 }
 
 @media screen and (min-height: 721px) {
-    #content {
-	height: 500px;
-	border: 0px solid #eee;
+    #content, #content article {
+	    height: 500px;
+    	border: 0px solid #eee;
     }
 }
 
 @media screen and (min-height: 800px) {
-    #content {
-	height: 560px;
-	border: 0px solid #eee;
+    #content , #content article {
+	    height: 560px;
+    	border: 0px solid #eee;
     }
 }
 

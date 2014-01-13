@@ -1,11 +1,8 @@
-	  </div>
-	</div>
-        <script 
-	   src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
-	</script>
+    	    </div>
+	    </div>
         <script>
-	  window.jQuery || 
-	  document.write('<script src="<?php echo get_template_directory_uri(); ?>/js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+    	    window.jQuery || 
+            document.write('<script src="<?php echo get_template_directory_uri(); ?>/js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
         <script src="<?php echo get_template_directory_uri(); ?>/js/plugins.js"></script>
         <script src="<?php echo get_template_directory_uri(); ?>/js/main.js"></script>
 
@@ -18,6 +15,6 @@
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
             ga('create','UA-XXXXX-X');ga('send','pageview');
         </script>
-    <?php wp_footer(); ?>
+        <?php wp_footer(); ?>
     </body>
 </html>
