@@ -314,14 +314,43 @@ body {
 }
 
 #main-wrapper > header {
-    margin-top: 32px;
+    margin: 32px auto 0;
     height: 138px;
+    width: 994px;
+    position: relative;
+    z-index: 1;
 }
 
 header img {
     display: block;
     margin: 0 auto;
 }
+
+/* Barra redes sociais */
+#redes-sociais {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+#redes-sociais a{
+    width: 34px;
+    height: 34px;
+    display: inline-block;
+    margin-right: 5px;
+}
+.icon-fb {
+    background: url('../img/redes-sociais.png') no-repeat -1px 0;
+}
+.icon-tt {
+    background: url('../img/redes-sociais.png') no-repeat -45px 0;
+}
+.icon-vimeo {
+    background: url('../img/redes-sociais.png') no-repeat -87px 0;
+}
+.icon-sc {
+    background: url('../img/redes-sociais.png') no-repeat -131px 0;
+}
+/* Fim redes sociais */
 
 #content-wrapper {
     position: relative;

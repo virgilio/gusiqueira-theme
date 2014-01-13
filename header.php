@@ -33,8 +33,16 @@
         <!-- Add your site or application content here -->
 	<div id="main-wrapper">
 	  <header>
-	    <img 
+	    <img alt="Logo"
 	       src="<?php echo get_template_directory_uri(); ?>/img/logo.png" />
+	    <div id="redes-sociais">
+	    	<a href="http://www.facebook.com/pages/Gu-Siqueira-e-Offbeat/282264878540722" 
+	    		target="_blank" class="icon-fb"></a>
+	    	<a href="#" class="icon-tt"></a>
+	    	<a href="#" class="icon-vimeo"></a>
+	    	<a href="http://soundcloud.com/gueoffbeat" 
+	    	target="_blank" class="icon-sc"></a>
+	    </siv>
 	  </header>
 	  <div id="upper-gradient"></div>
 	  <div id="bottom-gradient"></div>
