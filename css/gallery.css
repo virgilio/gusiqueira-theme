@@ -8,3 +8,16 @@
     top: 0;
     left: 0;
 }
+
+.gallery-item:hover{
+    z-index: 5000;
+}
+
+#gallery-1 img {
+    border: 0 !important;
+}
+
+.gallery-item img:hover {
+    width: 110%;
+    height: auto;
+}
