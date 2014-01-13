@@ -1,5 +1,11 @@
 .gallery {
+    position: relative;
     height: 100%;
+}
+
+
+.gallery .gallery-item {
+    width: auto !important;
 }
 
 .gallery-item {

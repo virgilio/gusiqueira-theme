@@ -98,10 +98,6 @@ textarea {
    ========================================================================== */
 
 
-#gallery-1 .gallery-item {
-    width: auto !important;
-}
-
 
 
 /* ==========================================================================
@@ -394,7 +390,7 @@ nav ul li a {
     text-transform: uppercase;
 }
 
-#content {
+content {
     position: relative;
 }
 
