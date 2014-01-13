@@ -301,7 +301,9 @@ body {
     height: 100%;
     font-family: 'Dosis', sans-serif;
 }
-
+a:hover{
+    text-decoration: none;
+}
 #upper-gradient {
     height: 500px;
     width: 100%;
@@ -405,7 +407,46 @@ nav ul li a {
     width: 300px;
     margin: 0 auto;
     color: #769fea;
+    padding-top: 100px;
 }
+
+/* Press kit template */
+
+.press-container{
+    width: 610px;
+    margin: 0 auto;
+    position: relative;
+}
+.press-container > a{
+    position: absolute;
+    display: inline;
+}
+.press-container a h2{
+    color: #d8c800;
+    text-transform: uppercase;
+    display: inline;
+}
+.release{
+    left: 220px;
+    top: 10px;
+}
+.fotos{
+    left: -70px;
+    top: 100px;
+}
+.mapa_palco{
+    left: 320px;
+    top: 120px;
+}
+.rider{
+    top: 200px;
+    left: 220px;
+}
+.rider a, .rider img{
+    display: block;
+}
+/* Fim press kit */
+
 
 @media screen and (max-height: 720px) {
     #content, #content article {
