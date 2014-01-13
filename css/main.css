@@ -364,6 +364,8 @@ nav ul li a {
 
 #content {
     position: relative;
+    width: 994px;
+    margin: 0 auto;
 }
 
 @media screen and (max-height: 720px) {
