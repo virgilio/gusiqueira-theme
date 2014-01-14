@@ -1,8 +1,9 @@
-<?php  get_header(); ?>
+<?php get_header(); ?>
 
-<div id="content">
+
+<div id="content" class="index-container">
     <?php while ( have_posts() ) : the_post(); ?>
-    <?php echo get_template_part( 'content'); ?>
+   <?php the_content(); ?>
     <?php endwhile; // end of the loop. ?>
 </div>
 
