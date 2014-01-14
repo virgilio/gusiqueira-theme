@@ -441,38 +441,79 @@ content {
 .rider a, .rider img{
     display: block;
 }
+
 /* Fim press kit */
 
+/* Agenda */
+
+.agenda-container {
+    width: 994px;
+    margin: 0 auto;
+    overflow: visible;
+    padding: 50px 20px 0; /* espaço para as setinhas */
+    font-size: 14px;
+}
+.bloco-eventos:nth-child(2n+1){
+    padding-top: 100px;
+}
+.bloco-eventos {
+    width: 218px;
+    float: left;
+    margin: 0 10px;
+}
+.bloco-eventos h2{
+    margin: 0;
+}
+.bloco-eventos h2, .bloco-eventos span{
+    text-transform: uppercase;
+    text-align: right;
+}
+.local{
+    float: right;
+    font-size: 14px;
+    font-weight: bold;
+}
+.evento-verde, .evento-azul {
+    width: 200px;
+    float: left;
+    margin-bottom: 20px;
+}
+.evento-verde {
+    border-top: 50px solid #72fc00;
+    color: #72fc00;
+}
+.evento-azul {
+    border-top: 50px solid #00bfb0;
+    color: #00bfb0;
+}
+/* Fim agenda */
 
 @media screen and (max-height: 720px) {
     #content, #content article {
 	    height: 450px;
-    	border: 0px solid #000;
     }
 }
 
 @media screen and (min-height: 721px) {
     #content, #content article {
 	    height: 500px;
-    	border: 0px solid #eee;
     }
 }
 
 @media screen and (min-height: 800px) {
     #content , #content article {
 	    height: 560px;
-    	border: 0px solid #eee;
     }
 }
 
 #content {
-background: -moz-radial-gradient(center, ellipse cover,  rgba(0,0,0,0.26) 0%, rgba(0,0,0,0) 100%); /* FF3.6+ */
-background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(0,0,0,0.26)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
-background: -webkit-radial-gradient(center, ellipse cover,  rgba(0,0,0,0.26) 0%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
-background: -o-radial-gradient(center, ellipse cover,  rgba(0,0,0,0.26) 0%,rgba(0,0,0,0) 100%); /* Opera 12+ */
-background: -ms-radial-gradient(center, ellipse cover,  rgba(0,0,0,0.26) 0%,rgba(0,0,0,0) 100%); /* IE10+ */
-background: radial-gradient(ellipse at center,  rgba(0,0,0,0.26) 0%,rgba(0,0,0,0) 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#42000000', endColorstr='#00000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    background: -moz-radial-gradient(center, ellipse cover,  rgba(0,0,0,0.26) 0%, rgba(0,0,0,0) 100%); /* FF3.6+ */
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(0,0,0,0.26)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
+    background: -webkit-radial-gradient(center, ellipse cover,  rgba(0,0,0,0.26) 0%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-radial-gradient(center, ellipse cover,  rgba(0,0,0,0.26) 0%,rgba(0,0,0,0) 100%); /* Opera 12+ */
+    background: -ms-radial-gradient(center, ellipse cover,  rgba(0,0,0,0.26) 0%,rgba(0,0,0,0) 100%); /* IE10+ */
+    background: radial-gradient(ellipse at center,  rgba(0,0,0,0.26) 0%,rgba(0,0,0,0) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#42000000', endColorstr='#00000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
 #content article h1 {
