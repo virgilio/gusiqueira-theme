@@ -291,8 +291,8 @@ textarea {
 }
 
 body {
-    background: url("../img/9.jpg") center top no-repeat;
-    background-size: 100%;
+    /*background: url("../img/9.jpg") center top no-repeat;
+    background-size: 100%;*/
     overflow: hidden;
     height: 100%;
     font-family: 'Dosis', sans-serif;
@@ -510,6 +510,7 @@ nav ul li a {
     width: 200px;
     float: left;
     margin-bottom: 20px;
+    overflow: hidden;
 }
 .evento-verde {
     border-top: 50px solid #72fc00;
@@ -554,6 +555,7 @@ nav ul li a {
 
 #content {
     position: relative;    
+    overflow: hidden;
     background: -moz-radial-gradient(center, ellipse cover,  rgba(0,0,0,0.40) 0%, rgba(0,0,0,0) 100%); /* FF3.6+ */
     background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(0,0,0,0.40)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
     background: -webkit-radial-gradient(center, ellipse cover,  rgba(0,0,0,0.40) 0%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */

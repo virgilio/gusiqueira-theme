@@ -22,7 +22,37 @@
 	    rel='stylesheet' type='text/css'>
         <script src="<?php echo get_template_directory_uri(); ?>/js/vendor/modernizr-2.6.2.min.js"></script>
     
-	<?php wp_head(); ?>
+		<?php wp_head(); ?>
+		<?php
+
+			$bg = array('1.jpg','1_2.jpg','2.jpg','2_2.jpg','3.jpg','5.jpg','6.jpg','7.jpg','7_2.jpg',
+						 '8.jpg','9.jpg','9_2.jpg','10.jpg','10_2.jpg','11.jpg','11_2.jpg','12.jpg',
+						 '12_2.jpg','13.jpg','13_2.jpg'); 
+			// array of filenames
+
+			$i = rand(0, count($bg)-1); // generate random number size of the array
+			$selectedBg = "$bg[$i]"; // set variable equal to which random filename was chosen
+
+			$bg_gradient = array('bottom1.png','bottom2.png','bottom3.png','bottom4.png',
+								 'bottom5.png','bottom6.png');
+			$i = rand(0, count($bg_gradient)-1); // generate random number size of the array
+			$selectedBg_gradient = "$bg_gradient[$i]"; // set variable equal to which random filename was chosen
+		?>
+		<style type="text/css">
+		<!--
+		body{
+			background: url("<?php echo get_template_directory_uri(); ?>/img/<?php echo $selectedBg; ?>") center top no-repeat;
+			background-size: 100%;
+		}
+		#bottom-gradient {
+			height: 289px;
+			width: 100%;
+			background: url('<?php echo get_template_directory_uri(); ?>/img/<?php echo $selectedBg_gradient; ?>') repeat-x;
+			position: absolute;
+			bottom: 0;
+		}
+		-->
+		</style>
     </head>
     <body>
         <!--[if lt IE 7]>
