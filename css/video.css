@@ -1,0 +1,61 @@
+.modal {
+    position: absolute;
+}
+
+.nav-previous, .nav-next {
+    position: absolute;
+    top: 45%;
+}
+
+.nav-next {
+    right: 0;
+}
+
+.nav-previous {
+    left: 0;
+}
+
+#videos {
+   width: 1280px; 
+   margin: 0 auto;
+}
+
+div.video {
+    margin-top: 10%;
+}
+
+div.video img {
+    height: auto;
+    width: 200px; 
+}
+
+.video-column {
+    display: inline-block;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.video-column div:first-child {
+    margin-left: 30%;
+}
+
+.video-column div:nth-child(2) {
+    margin-left: 90%;
+}
+
+div.odd {
+    margin-top: 10%;
+}
+
+div.even {
+    margin-top: 20%;
+}
+
+.video-post-content {
+    display: none;
+}
+
+
+
+
+
