@@ -444,14 +444,19 @@ nav ul li a {
 
 /* Fim press kit */
 
-/* Agenda */
+/* Agenda e clipping */
 
-.agenda-container {
+.agenda-container, .clipping-container {
     width: 994px;
     margin: 0 auto;
-    overflow: visible;
-    padding: 50px 20px 0; /* espaço para as setinhas */
+    overflow: visible;    
     font-size: 14px;
+}
+.agenda-container{
+    padding: 50px 20px 0; /* espaço para as setinhas */
+}
+.clipping-container{
+    padding: 50px 32px 0; /* espaço para as setinhas */
 }
 /* Espaçamento dos blocos ímpares de evento de acordo com os tamanhos de tela */
 @media screen and (max-height: 700px) {
@@ -471,17 +476,31 @@ nav ul li a {
 }
 .bloco-eventos {
     width: 218px;
+}
+.bloco-eventos, .bloco-clipping {    
     float: left;
     margin: 0 10px;
     font-size: 14px;
 }
-.bloco-eventos h2{
+.bloco-clipping {
+    width: 280px;
+}
+.bloco-clipping div{
+    margin-left: 40px;
+    width: 240px;
+    margin-bottom: 20px;
+}
+.bloco-clipping div:nth-child(2n){
+    margin-left: 0;
+}
+.bloco-eventos h2, .bloco-clipping h2{
     margin: 0;
 }
-.bloco-eventos h2, .bloco-eventos span{
+.bloco-eventos h2, .bloco-eventos span, .bloco-clipping h2, .bloco-clipping span{
     text-transform: uppercase;
     text-align: right;
 }
+
 .local{
     float: right;
     font-size: 14px;
@@ -500,7 +519,20 @@ nav ul li a {
     border-top: 50px solid #00bfb0;
     color: #00bfb0;
 }
-/* Fim agenda */
+.clipping-vermelho{
+    border-top: 30px solid #f01632;
+}
+.clipping-verde{
+    border-top: 30px solid #42f195;
+}
+.clipping-azul{
+    border-top: 30px solid #4be2d0;
+}
+.clipping-container .entry-summary{
+    text-align: right;
+    font-size: 14px;
+}
+/* Fim agenda e clipping */
 
 @media screen and (max-height: 720px) {
     #content, #content article {
