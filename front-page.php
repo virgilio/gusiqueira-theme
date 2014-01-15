@@ -16,7 +16,7 @@
 
     </head>
     <body id="capa">
-		<a href="<?php echo home_url(); ?>/?page_id=193">
+		<a href="<?php echo home_url(); ?>/home">
 			<img src="<?php echo get_template_directory_uri(); ?>/img/capa.jpg" />
 		</a>
 

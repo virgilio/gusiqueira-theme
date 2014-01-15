@@ -390,7 +390,7 @@ nav ul li a {
     text-transform: uppercase;
 }
 
-content {
+#content {
     position: relative;
 }
 
@@ -615,7 +615,46 @@ content {
 }
 /* Fim Capa */
 
-.index-container {
+.index-container, .ep-container {
     width: 994px;
     margin: 0 auto;
+    overflow-y: auto;
+    padding-bottom: 50px;
 }
+
+/* EP Template */
+.sidebar-form-ep{
+    background-color: #eccb1f;
+    margin-bottom: 10px;
+}
+.ep-container div{
+    float: left;
+    margin-right: 10px;
+    width: 280px;
+    font-weight: bold;
+}
+.letra {
+    text-align: right;
+}
+.sidebar-soundclloud li, .sidebar-form-ep li{
+    list-style: none;
+}
+.widget_wysija h1{
+    font-size: 1em;
+    text-transform: uppercase;
+    margin-left: 15px;
+}
+.wysija-paragraph {
+    text-align: center;
+}
+.wysija-paragraph input[type="text"]{
+    width: 80%;
+    margin: auto;
+    border: none;
+    border-radius: 6px;
+    padding: 5px;
+}
+.col-soundcloud img{
+    /*width: 200px;*/
+}
+/* Fim Template */
