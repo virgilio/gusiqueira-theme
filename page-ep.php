@@ -5,6 +5,7 @@
   */
    ?>
 
+<?php wp_enqueue_script('jquery'); ?>
 <?php get_header(); ?>
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
@@ -24,31 +25,8 @@
     <div>		
     	<?php get_sidebar('soundcloud') ?>
 	</div>
-    <div class="letra">
-    	<p>
-	    	Tem dias que eu acordo pensando em você <br/>
-			Em fração de segundos vejo o mundo desabar <br/>
-			Aí que cai a ficha que eu não vou te ver <br/>
-			Será que esse vazio um dia vai me abandonar?
-		</p>
-		<p>
-	    	Tem dias que eu acordo pensando em você <br/>
-			Em fração de segundos vejo o mundo desabar <br/>
-			Aí que cai a ficha que eu não vou te ver <br/>
-			Será que esse vazio um dia vai me abandonar?
-		</p>
-		<p>
-	    	Tem dias que eu acordo pensando em você <br/>
-			Em fração de segundos vejo o mundo desabar <br/>
-			Aí que cai a ficha que eu não vou te ver <br/>
-			Será que esse vazio um dia vai me abandonar?
-		</p>
-		<p>
-	    	Tem dias que eu acordo pensando em você <br/>
-			Em fração de segundos vejo o mundo desabar <br/>
-			Aí que cai a ficha que eu não vou te ver <br/>
-			Será que esse vazio um dia vai me abandonar?
-		</p>
+    <div id="current_lyric" class="letra">
+        <p>Selecione uma música!</p>
     </div>
     <div class=""></div>
 

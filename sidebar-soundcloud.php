@@ -10,7 +10,21 @@
  */
 
 if ( is_active_sidebar( 'soundcloud' ) ) : ?>
-	<div class="sidebar-soundclloud" role="complementary">
-		<?php dynamic_sidebar( 'soundcloud' ); ?>
+    <script type="text/javascript" src="https://w.soundcloud.com/player/api.js"></script>
+
+    <div class="sidebar-soundcloud" role="complementary">
+	    <?php dynamic_sidebar( 'soundcloud' ); ?>
 	</div><!-- #secondary -->
+
+    <?php   
+        wp_enqueue_script(
+            'lyrics',
+            get_template_directory_uri() . '/js/lyrics.js', 
+            array('jquery')
+        ); 
+        wp_localize_script( 'lyrics',
+                            'lyrics',
+                            array( 'ajaxurl' => admin_url( 'admin-ajax.php' ))); 
+    ?>
+
 <?php endif; ?>
