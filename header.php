@@ -6,7 +6,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
+        <title><?php bloginfo('name'); ?></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -70,8 +70,8 @@
 	    <div id="redes-sociais">
 	    	<a href="http://www.facebook.com/pages/Gu-Siqueira-e-Offbeat/282264878540722" 
 	    		target="_blank" class="icon-fb"></a>
-	    	<a href="#" class="icon-tt"></a>
-	    	<a href="#" class="icon-vimeo"></a>
+	    	<!-- <a href="#" class="icon-tt"></a>
+	    	<a href="#" class="icon-vimeo"></a> -->
 	    	<a href="http://soundcloud.com/gueoffbeat" 
 	    	target="_blank" class="icon-sc"></a>
 	    </siv>
