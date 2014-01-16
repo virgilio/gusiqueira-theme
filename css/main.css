@@ -678,11 +678,18 @@ nav ul li a {
 .ep-container {
     padding-top: 40px;
 }
-.ep-container div{
+.ep-container > div, .col-soundcloud div{
     float: left;
-    margin-right: 10px;
+    margin-right: 30px;
     width: 280px;
     font-weight: bold;
+}
+#current_lyric{
+    height: 100%;
+    overflow-y: auto;
+    padding-right: 30px;
+    width: 330px;
+    color: #222;
 }
 .letra {
     text-align: right;

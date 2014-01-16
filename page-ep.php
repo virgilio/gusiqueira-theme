@@ -6,7 +6,18 @@
    ?>
 
 <?php wp_enqueue_script('jquery'); ?>
+<?php   
+  wp_enqueue_script(
+      'scrollbar',
+      get_template_directory_uri() . '/scrollbar/jquery.mCustomScrollbar.min.js', 
+      array('jquery')
+  ); 
+?>
+<link href="<?php echo get_template_directory_uri(); ?>/scrollbar/jquery.mCustomScrollbar.css" 
+      rel="stylesheet" type="text/css" />
+
 <?php get_header(); ?>
+
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
@@ -22,7 +33,7 @@
 		<?php get_sidebar('form-ep') ?>
 		<img src="<?php echo get_template_directory_uri(); ?>/img/ep-topo.jpg" />
 	</div>
-    <div>		
+  <div>		
     	<?php get_sidebar('soundcloud') ?>
 	</div>
     <div id="current_lyric" class="letra">
