@@ -7,7 +7,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title><?php bloginfo('name'); ?></title>
-        <meta name="description" content="">
+        <meta name="description" content="Faça o download gratuito e ouça o novo EP do Gu Siqueira e Offbeat">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta property="og:title" content="Gu Siqueira e Offbeat"/>
 		<meta property="og:url" content="http://gusiqueira.com.br/ep"/>
