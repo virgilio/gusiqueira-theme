@@ -5,6 +5,8 @@ add_theme_support( 'post-formats', array(
            'aside', 'image', 'video', 'audio', 'quote', 'link', 'gallery',
                ) );
 
+remove_action('wp_head','jetpack_og_tags');
+
 if ( is_admin() ) {
     add_action( 'wp_ajax_nopriv_lyrics_post', 'gs_get_lyrics_post' );
     add_action( 'wp_ajax_lyrics_post', 'gs_get_lyrics_post' );
