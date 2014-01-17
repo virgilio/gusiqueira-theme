@@ -9,6 +9,10 @@
         <title><?php bloginfo('name'); ?></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta property="og:title" content="Gu Siqueira e Offbeat"/>
+		<meta property="og:url" content="http://gusiqueira.com.br/ep"/>
+		<meta property="og:image" content="http://gusiqueira.com.br/wp-content/themes/gusiqueira-theme/img/ep-topo.jpg"/>
+        <meta property="og:description" content="Faça o download gratuito e ouça o novo EP do Gu Siqueira e Offbeat"/>
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
