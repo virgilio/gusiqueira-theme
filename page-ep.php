@@ -8,9 +8,14 @@
 <?php wp_enqueue_script('jquery'); ?>
 <?php   
   wp_enqueue_script(
+      'scroll',
+      get_template_directory_uri() . '/js/scroll.js', 
+      array('jquery')
+  ); 
+  wp_enqueue_script(
       'scrollbar',
       get_template_directory_uri() . '/scrollbar/jquery.mCustomScrollbar.min.js', 
-      array('jquery')
+      array('jquery', 'scroll')
   ); 
 ?>
 <link href="<?php echo get_template_directory_uri(); ?>/scrollbar/jquery.mCustomScrollbar.css" 
@@ -37,7 +42,7 @@
     	<?php get_sidebar('soundcloud') ?>
 	</div>
     <div id="current_lyric" class="letra">
-        <p>Selecione uma música!</p>
+        <p>Selecione uma música!</p>     
     </div>
     <div class=""></div>
 
