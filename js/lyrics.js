@@ -2,10 +2,7 @@ var widget = SC.Widget("gusiqueira-sc");
 widget.bind(SC.Widget.Events.READY, function(){
         widget.bind(SC.Widget.Events.PLAY, function(){
             widget.getCurrentSound(function(currentSound) {
-                console.log(lyrics.ajaxurl);
-                console.log(currentSound.title + ' began to play');
-                console.log("Vamo dar load nessa parada?");
-                console.log("Essa parada tem ID: " + currentSound.id);
+                console.log("Music id: " + currentSound.id);
                 // Aqui vem o Ajax pra dar load no Post =D!
                 
                 jQuery(document).ready(function($) {
