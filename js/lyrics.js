@@ -13,7 +13,7 @@ widget.bind(SC.Widget.Events.READY, function(){
                     };
                     // We can also pass the url value separately from ajaxurl for front end AJAX implementations
                     jQuery.post(lyrics.ajaxurl, data, function(response) {
-                        jQuery("#current_lyric").html(response);
+                        jQuery("#current_lyric").html(response).trigger('change');
                     });
                 });
             });

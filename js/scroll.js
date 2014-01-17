@@ -1,8 +1,11 @@
 jQuery(document).ready(function(){
-  jQuery("#current_lyric").mCustomScrollbar({
-		scrollButtons:{
-			enable:true
-		},
-		theme:"dark-thick"
-	});
+
+    jQuery("#current_lyric").on('change', function(){
+        jQuery(this).mCustomScrollbar({
+            scrollButtons:{
+			    enable:true
+    		},
+		    theme:"dark-thick"
+        });
+    });
 });
