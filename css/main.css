@@ -421,6 +421,7 @@ nav ul li a {
     color: #d8c800;
     text-transform: uppercase;
     display: inline;
+    font-weight: 600;
 }
 .release{
     left: 220px;
@@ -495,6 +496,7 @@ nav ul li a {
 }
 .bloco-eventos h2, .bloco-clipping h2{
     margin: 0;
+    font-weight: 500;
 }
 .bloco-eventos h2, .bloco-eventos span, .bloco-clipping h2, .bloco-clipping span{
     text-transform: uppercase;

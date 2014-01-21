@@ -22,8 +22,7 @@
 	      href="<?php echo get_template_directory_uri(); ?>/css/bootstrap.min.css">
         <link rel="stylesheet"
 	      href="<?php echo get_template_directory_uri(); ?>/css/main.css">
-	    <link href='http://fonts.googleapis.com/css?family=Dosis:400,700' 
-	    rel='stylesheet' type='text/css'>
+	    <link href='http://fonts.googleapis.com/css?family=Dosis:400,500,600,700' rel='stylesheet' type='text/css'>
         <script src="<?php echo get_template_directory_uri(); ?>/js/vendor/modernizr-2.6.2.min.js"></script>
     
 		<?php wp_head(); ?>
