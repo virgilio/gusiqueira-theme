@@ -37,7 +37,6 @@
     
 	<div class="col-soundcloud">
 		<?php get_sidebar('form-ep') ?>
-		<img src="<?php echo get_template_directory_uri(); ?>/img/ep-topo.jpg" />
 	</div>
   <div>		
     	<?php get_sidebar('soundcloud') ?>

@@ -365,7 +365,7 @@ nav {
     background: url('../img/nav-background.png') repeat;
     height: 37px;
     width: 994px;
-    border-bottom: 6px solid #231f20;
+    border-bottom: 6px solid #f1cb00;
 }
 
 nav ul {
@@ -446,7 +446,10 @@ nav ul li a {
 /* Fim press kit */
 
 /* Agenda e clipping */
-
+.category-agenda a {
+    font-size: 16px;
+    font-weight: 600;
+}
 .agenda-container, .clipping-container {
     width: 994px;
     margin: 0 auto;
@@ -674,7 +677,7 @@ nav ul li a {
 
 /* EP Template */
 .sidebar-form-ep{
-    background-color: #eccb1f;
+    background-color: #f1cb00;
     margin-bottom: 10px;
 }
 .ep-container {
@@ -692,6 +695,7 @@ nav ul li a {
     padding-right: 30px;
     width: 330px;
     color: #222;
+    color: #FFF1A5;
 }
 .letra {
     text-align: right;
