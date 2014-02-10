@@ -26,7 +26,12 @@ div.video img {
     height: auto;
     width: 200px; 
 }
-
+.video-image {
+    width: 200px;
+}
+.video-title {
+    text-transform: uppercase;
+}
 .video-column {
     float: left;
     width: 280px;

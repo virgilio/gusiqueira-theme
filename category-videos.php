@@ -28,6 +28,12 @@
             if ( has_post_thumbnail() ) {
                 the_post_thumbnail("medium");
             }   
+        echo "<p class='video-title'>";
+        the_title();
+        echo "</p>";    
+        echo "<p>";
+        the_excerpt();
+        echo "</p>";
     ?>
                 </a>
             </div>

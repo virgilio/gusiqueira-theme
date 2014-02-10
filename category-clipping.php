@@ -13,23 +13,28 @@
 			<?php } 
 				$insere_div = false;
 				$link_clipping = get_post_meta( get_the_ID(), 'link_clipping' ); 
+				$veiculo = get_post_meta( get_the_ID(), 'veiculo' );
 			?>
-			
+				<a href="<?php echo $link_clipping[0]; ?>" target="_blank">
 				<div id="post-<?php the_ID(); ?>" 
 					<?php post_class( (($cor == 0) ? 'clipping-vermelho' : 
 						(($cor == 1) ? 'clipping-verde' : 'clipping-azul')) ); ?> >
-					<header class="entry-header">
-						<a href="<?php echo $link_clipping[0]; ?>" target="_blank">
+					
+						<header class="entry-header">	
 							<h2 class="entry-title">
 								<?php the_title(); ?>
-							</h2>						
-						</a>
-					</header><!-- .entry-header -->
+							</h2>
+							<p class="veiculo">
+								<?php echo $veiculo[0]; ?>
+							</p>						
+						</header><!-- .entry-header -->
+				
 
 					<div class="entry-summary">
 						<?php the_excerpt(); ?>
 					</div>		
 				</div><!-- #post -->
+				</a>
 
 			<?php if (($cont % 3) == 0) { ?>
 					</div>	

@@ -68,13 +68,15 @@
         <!-- Add your site or application content here -->
 	<div id="main-wrapper">
 	  <header>
-	    <img alt="Logo"
+	    <a href="<?php get_site_url(); ?>"> 
+	    	<img alt="Logo"
 	       src="<?php echo get_template_directory_uri(); ?>/img/logo.png" />
+	    </a>
 	    <div id="redes-sociais">
 	    	<a href="http://www.facebook.com/pages/Gu-Siqueira-e-Offbeat/282264878540722" 
 	    		target="_blank" class="icon-fb"></a>
-	    	<!-- <a href="#" class="icon-tt"></a>
-	    	<a href="#" class="icon-vimeo"></a> -->
+	    	<!-- <a href="#" class="icon-tt"></a> -->
+	    	<a href="http://www.youtube.com/user/gueoffbeat" class="icon-youtube"></a>
 	    	<a href="http://soundcloud.com/gueoffbeat" 
 	    	target="_blank" class="icon-sc"></a>
 	    </siv>

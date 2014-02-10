@@ -333,9 +333,15 @@ header img {
 }
 #redes-sociais a{
     width: 34px;
-    height: 34px;
+    height: 36px;
     display: inline-block;
     margin-right: 5px;
+}
+#redes-sociais a:hover{
+    width: 36px;
+    height: 36px;
+    background-size: 168px 37px;
+    margin-right: 3px;
 }
 .icon-fb {
     background: url('../img/redes-sociais.png') no-repeat -1px 0;
@@ -343,7 +349,7 @@ header img {
 .icon-tt {
     background: url('../img/redes-sociais.png') no-repeat -45px 0;
 }
-.icon-vimeo {
+.icon-youtube {
     background: url('../img/redes-sociais.png') no-repeat -87px 0;
 }
 .icon-sc {
@@ -417,6 +423,9 @@ nav ul li a {
     position: absolute;
     display: inline;
 }
+.press-container > a:hover img {
+    width: 118px;
+}
 .press-container a h2{
     color: #d8c800;
     text-transform: uppercase;
@@ -489,13 +498,19 @@ nav ul li a {
 .bloco-clipping {
     width: 280px;
 }
-.bloco-clipping div{
+.bloco-clipping a{
+    display: block;
     margin-left: 40px;
     width: 240px;
     margin-bottom: 20px;
 }
-.bloco-clipping div:nth-child(2n){
+.bloco-clipping a:nth-child(2n){
     margin-left: 0;
+}
+.veiculo {
+    text-align: right;
+    text-transform: uppercase;
+    font-weight: 500;
 }
 .bloco-eventos h2, .bloco-clipping h2{
     margin: 0;
@@ -527,12 +542,24 @@ nav ul li a {
 }
 .clipping-vermelho{
     border-top: 30px solid #f01632;
+    color: #f01632;
+}
+.clipping-vermelho a{
+    color: #f01632;   
 }
 .clipping-verde{
     border-top: 30px solid #42f195;
+    color: #42f195;
+}
+.clipping-verde a{
+    color: #42f195;
 }
 .clipping-azul{
     border-top: 30px solid #4be2d0;
+    color: #4be2d0;
+}
+.clipping-azul a{
+    color: #4be2d0;
 }
 .clipping-container .entry-summary{
     text-align: right;
@@ -561,12 +588,12 @@ nav ul li a {
 #content {
     position: relative;    
     overflow: hidden;
-    background: -moz-radial-gradient(center, ellipse cover,  rgba(0,0,0,0.40) 0%, rgba(0,0,0,0) 100%); /* FF3.6+ */
-    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(0,0,0,0.40)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
-    background: -webkit-radial-gradient(center, ellipse cover,  rgba(0,0,0,0.40) 0%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-radial-gradient(center, ellipse cover,  rgba(0,0,0,0.40) 0%,rgba(0,0,0,0) 100%); /* Opera 12+ */
-    background: -ms-radial-gradient(center, ellipse cover,  rgba(0,0,0,0.40) 0%,rgba(0,0,0,0) 100%); /* IE10+ */
-    background: radial-gradient(ellipse at center,  rgba(0,0,0,0.40) 0%,rgba(0,0,0,0) 100%); /* W3C */
+    background: -moz-radial-gradient(center, ellipse cover,  rgba(0,0,0,0.60) 0%, rgba(0,0,0,0) 100%); /* FF3.6+ */
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(0,0,0,0.60)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
+    background: -webkit-radial-gradient(center, ellipse cover,  rgba(0,0,0,0.60) 0%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-radial-gradient(center, ellipse cover,  rgba(0,0,0,0.60) 0%,rgba(0,0,0,0) 100%); /* Opera 12+ */
+    background: -ms-radial-gradient(center, ellipse cover,  rgba(0,0,0,0.60) 0%,rgba(0,0,0,0) 100%); /* IE10+ */
+    background: radial-gradient(ellipse at center,  rgba(0,0,0,0.60) 0%,rgba(0,0,0,0) 100%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#42000000', endColorstr='#00000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
