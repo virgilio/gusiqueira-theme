@@ -10,20 +10,24 @@
 	?>
 			<?php if ($insere_div) { ?>
 					<div class="bloco-eventos">	
-			<?php } ?>
-				<div id="post-<?php the_ID(); ?>" <?php post_class( 'evento ' + ($verde) ? 'evento-verde' : 'evento-azul'); ?> >
-					<header class="entry-header">
-						<h2 class="entry-title">
-							<?php the_title(); ?>
-						</h2>
-						<?php $local = get_post_meta( get_the_ID(), 'local' ); ?>
-						<span class="local"><?php echo $local[0]; ?></span>
-					</header><!-- .entry-header -->
+			<?php } 
+				$link_evento = get_post_meta( get_the_ID(), 'link_evento' ); 
+				?>
+				<a href="<?php echo $link_evento[0]; ?>" target="_blank">
+					<div id="post-<?php the_ID(); ?>" <?php post_class( 'evento ' + ($verde) ? 'evento-verde' : 'evento-azul'); ?> >
+						<header class="entry-header">
+							<h2 class="entry-title">
+								<?php the_title(); ?>
+							</h2>
+							<?php $local = get_post_meta( get_the_ID(), 'local' ); ?>
+							<span class="local"><?php echo $local[0]; ?></span>
+						</header><!-- .entry-header -->
 
-					<div class="entry-summary">
-						<?php the_excerpt(); ?>
-					</div>		
-				</div><!-- #post -->
+						<div class="entry-summary">
+							<?php the_excerpt(); ?>
+						</div>		
+					</div><!-- #post -->
+				</a>
 
 			<?php if (!$insere_div) { ?>
 					</div>	
