@@ -530,12 +530,12 @@ nav ul li a {
 /* Espaçamento dos blocos ímpares de evento de acordo com os tamanhos de tela */
 @media screen and (max-height: 700px) {
     .bloco-eventos:nth-child(2n+1){
-        padding-top: 20px;
+        padding-top: 10px;
     }
 }
 @media screen and (max-height: 800px) {
     .bloco-eventos:nth-child(2n+1){
-        padding-top: 40px;
+        padding-top: 25px;
     }
 }
 @media screen and (min-height: 800px) {
@@ -543,6 +543,7 @@ nav ul li a {
         padding-top: 100px;
     }
 }
+
 .bloco-eventos {
     width: 218px;
 }
@@ -588,9 +589,14 @@ nav ul li a {
     margin-bottom: 20px;
     overflow: hidden;
 }
+.evento-verde, .evento-verde a {
+    color: #72fc00;
+}
 .evento-verde {
     border-top: 50px solid #72fc00;
-    color: #72fc00;
+}
+.evento-azul, .evento-azul a {
+    color: #00bfb0;
 }
 .evento-azul {
     border-top: 50px solid #00bfb0;

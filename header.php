@@ -75,8 +75,8 @@
 	    <div id="redes-sociais">
 	    	<a href="http://www.facebook.com/pages/Gu-Siqueira-e-Offbeat/282264878540722" 
 	    		target="_blank" class="icon-fb"></a>
-	    	<!-- <a href="#" class="icon-tt"></a> -->
-	    	<a href="http://www.youtube.com/user/gueoffbeat" class="icon-youtube"></a>
+	    	<a href="https://twitter.com/gusiqueir" target="_blank" class="icon-tt"></a>
+	    	<a href="http://www.youtube.com/user/gueoffbeat" target="_blank" class="icon-youtube"></a>
 	    	<a href="http://soundcloud.com/gueoffbeat" 
 	    	target="_blank" class="icon-sc"></a>
 	    </siv>

@@ -3,11 +3,8 @@
 
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/video.css">
 <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.leanModal.js"></script>    
-<script type="text/javascript">
-    jQuery( document ).ready( function(){
-        jQuery("a[rel*=leanModal]").leanModal();
-    })
-</script>
+<script src="<?php echo get_template_directory_uri(); ?>/js/main.js"></script>    
+
 <div id="content">
     <div id="videos" class="videos-container">
     <?php 
